@@ -12,8 +12,7 @@ export default defineConfig(({ command }) => ({
     },
   },
 
-  // 开发环境用根路径，生产环境用 /sinmm/
-  base: command === 'build' ? '/sinmm/' : '/',
+  base: command === 'build' ? '/' : '/',
 
   build: {
     // 生成 sourcemap 用于调试
