@@ -8,6 +8,7 @@ interface Organizer {
   affiliation: string
   role: string
   expertise: string
+  photo: string
 }
 
 interface ImportantDate {
@@ -56,42 +57,48 @@ const organizers: Organizer[] = [
     email: 'wudp@cqupt.edu.cn',
     affiliation: 'Chongqing University of Posts and Telecommunications',
     role: 'Director of the Chongqing Key Laboratory of Ubiquitous Sensing and Networking',
-    expertise: 'Ubiquitous sensing, social computing, and intelligent edge computing'
+    expertise: 'Ubiquitous sensing, social computing, and intelligent edge computing',
+    photo: '/images/bio/Dapeng_Wu.jpg'
   },
   {
     name: 'Prof. Changqing Luo',
     email: 'cluo3@uh.edu',
     affiliation: 'University of Houston',
     role: 'Assistant Professor, Department of Information Science Technology',
-    expertise: 'Secure and trustworthy AI, over 50 publications in top-tier venues'
+    expertise: 'Secure and trustworthy AI, over 50 publications in top-tier venues',
+    photo: '/images/bio/Changqing_Luo.jpg'
   },
   {
     name: 'Prof. Enzo Mingozzi',
     email: 'enzo.mingozzi@unipi.it',
     affiliation: 'University of Pisa',
     role: 'Full Professor, Department of Information Engineering',
-    expertise: 'Networking systems, pervasive computing, mobile edge/fog computing, IoT'
+    expertise: 'Networking systems, pervasive computing, mobile edge/fog computing, IoT',
+    photo: '/images/bio/Mingozzi_head.jpg'
   },
   {
     name: 'Prof. Qian Liu',
     email: 'qianliu@dlut.edu.cn',
     affiliation: 'Dalian University of Technology',
     role: 'Vice Dean of the School of Computer Science and Technology',
-    expertise: 'Embodied AI, haptic signal processing, wireless multimedia communications'
+    expertise: 'Embodied AI, haptic signal processing, wireless multimedia communications',
+    photo: '/images/bio/Qian_Liu.jpg'
   },
   {
     name: 'Prof. Mingkai Chen',
     email: 'mkchen@njupt.edu.cn',
     affiliation: 'Nanjing University of Posts and Telecommunications',
     role: 'Member of CIC and IEEE',
-    expertise: 'Wireless communications, signal processing, mobile edge computing'
+    expertise: 'Wireless communications, signal processing, mobile edge computing',
+    photo: '/images/bio/Mingkai_Chen.png'
   },
   {
     name: 'Dr. Boran Yang',
     email: 'yangbr@cqut.edu.cn',
     affiliation: 'Chongqing University of Technology',
     role: 'Researcher',
-    expertise: 'Edge ubiquitous intelligence, social intelligence trust management'
+    expertise: 'Edge ubiquitous intelligence, social intelligence trust management',
+    photo: '/images/bio/Boran_Yang.jpg'
   }
 ]
 
@@ -107,10 +114,11 @@ const topics: string[] = [
 ]
 
 const importantDates: ImportantDate[] = [
-  { event: 'Paper Submission Deadline', date: 'TBA' },
-  { event: 'Notification of Acceptance', date: 'TBA' },
-  { event: 'Camera-Ready Deadline', date: 'TBA' },
-  { event: 'Workshop Date', date: 'TBA' }
+  { event: 'Workshop Acceptance Notification', date: 'December 15, 2025' },
+  { event: 'Workshop Paper Submission', date: 'March 25, 2026' },
+  { event: 'Camera Ready Submission', date: 'April 5, 2026' },
+  { event: 'Workshop Paper Notification', date: 'April 25, 2026' },
+  { event: 'Workshop Paper Camera Ready', date: 'May 15, 2026' }
 ]
 </script>
 
@@ -301,7 +309,7 @@ const importantDates: ImportantDate[] = [
           <!-- @ts-ignore -->
           <div class="organizer-card" v-for="(organizer, index) in organizers" :key="index">
             <div class="organizer-avatar">
-              <div class="avatar-placeholder">{{ organizer.name.split(' ')[0]?.[0] || '' }}{{ organizer.name.split(' ').slice(-1)[0]?.[0] || '' }}</div>
+              <img :src="organizer.photo" :alt="organizer.name" class="organizer-photo" />
             </div>
             <div class="organizer-info">
               <h3>{{ organizer.name }}</h3>
