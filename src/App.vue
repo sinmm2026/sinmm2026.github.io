@@ -121,9 +121,9 @@ const importantDates: ImportantDate[] = [
     <nav class="navbar" :class="{ 'scrolled': activeSection !== 'home' }">
       <div class="nav-container">
         <div class="nav-brand">
-          <span class="brand-text">SINMM 2026</span>
+          <span class="brand-text">SINM 2026</span>
         </div>
-        
+
         <button class="mobile-menu-btn" @click="mobileMenuOpen = !mobileMenuOpen">
           <span></span>
           <span></span>
@@ -146,7 +146,7 @@ const importantDates: ImportantDate[] = [
       <div class="hero-content">
         <div class="hero-badge">ICME 2026 Workshop</div>
         <h1 class="hero-title">Social Intelligence for<br/>Networked Multimedia</h1>
-        <p class="hero-subtitle">SINMM 2026</p>
+        <p class="hero-subtitle">SINM 2026</p>
         <div class="hero-info">
           <div class="info-item">
             <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -155,14 +155,14 @@ const importantDates: ImportantDate[] = [
               <line x1="8" y1="2" x2="8" y2="6"></line>
               <line x1="3" y1="10" x2="21" y2="10"></line>
             </svg>
-            <span>Date TBA</span>
+            <span>July 5-9, 2026</span>
           </div>
           <div class="info-item">
             <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
               <circle cx="12" cy="10" r="3"></circle>
             </svg>
-            <span>Location TBA</span>
+            <span>Bangkok, Thailand</span>
           </div>
           <div class="info-item">
             <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -193,12 +193,6 @@ const importantDates: ImportantDate[] = [
           <p>
             We focus on the development of AI-driven systems that can interpret group dynamics, leverage social relationships, infer emotional states and intentions in interactive contexts, and understand the cultural nuances present in networked multimedia interactions. This goes beyond traditional single-modality or individual-centric networked multimedia analysis, emphasizing the complex, multi-party, and multi-modal nature of social multimedia interactions.
           </p>
-          <div class="highlight-box">
-            <h3>Why is this topic important?</h3>
-            <p>
-              The nature of multimedia consumption and interaction has fundamentally shifted towards social network platforms. The explosive growth of teleconferencing, collaborative interactive metaverse environments, and next-generation social media has created an urgent need to move beyond analyzing multimedia content in isolation to understanding the complex social fabric within it. This paradigm shift demands new AI-driven methodologies that can perceive group dynamics, interpret socio-emotional cues, and model cultural nuances to enable transformative applications.
-            </p>
-          </div>
         </div>
       </div>
     </section>
@@ -276,7 +270,7 @@ const importantDates: ImportantDate[] = [
               </div>
             </div>
           </div>
-          
+
           <div class="cfp-grid">
             <div class="cfp-card">
               <div class="card-icon">📄</div>
@@ -332,7 +326,7 @@ const importantDates: ImportantDate[] = [
       <div class="container">
         <div class="footer-content">
           <div class="footer-section">
-            <h3>SINMM 2026</h3>
+            <h3>SINM 2026</h3>
             <p>Social Intelligence for Networked Multimedia</p>
             <p class="footer-tagline">Shaping the Future of Socially-Intelligent Multimedia Systems</p>
           </div>
@@ -350,7 +344,7 @@ const importantDates: ImportantDate[] = [
           </div>
         </div>
         <div class="footer-bottom">
-          <p>&copy; 2026 SINMM Workshop. All rights reserved.</p>
+          <p>&copy; 2026 SINM Workshop. All rights reserved.</p>
           <p>In conjunction with <a href="https://2026.ieeeicme.org" target="_blank" rel="noopener">IEEE ICME 2026</a></p>
         </div>
       </div>
