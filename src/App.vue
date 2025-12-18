@@ -114,10 +114,10 @@ const topics: string[] = [
 ]
 
 const importantDates: ImportantDate[] = [
-  { event: 'Workshop Acceptance Notification', date: 'December 15, 2025' },
+  // { event: 'Proposal Acceptance Notification', date: 'December 15, 2025' },
   { event: 'Workshop Paper Submission', date: 'March 25, 2026' },
   { event: 'Camera Ready Submission', date: 'April 5, 2026' },
-  { event: 'Workshop Paper Notification', date: 'April 25, 2026' },
+  { event: 'Paper Acceptance Notification', date: 'April 25, 2026' },
   { event: 'Workshop Paper Camera Ready', date: 'May 15, 2026' }
 ]
 </script>
