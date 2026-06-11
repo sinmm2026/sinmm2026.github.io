@@ -28,7 +28,7 @@ const scrollToSection = (sectionId: string) => {
 }
 
 const handleScroll = () => {
-  const sections = ['home', 'about', 'topics', 'dates', 'cfp', 'organizers']
+  const sections = ['home', 'about', 'topics', 'dates', 'program', 'cfp', 'organizers']
   const scrollPosition = window.scrollY + 100
 
   for (const section of sections) {
@@ -114,11 +114,10 @@ const topics: string[] = [
 ]
 
 const importantDates: ImportantDate[] = [
-  // { event: 'Proposal Acceptance Notification', date: 'December 15, 2025' },
-  { event: 'Workshop Paper Submission', date: 'March 25, 2026' },
-  { event: 'Camera Ready Submission', date: 'April 5, 2026' },
-  { event: 'Paper Acceptance Notification', date: 'April 25, 2026' },
-  { event: 'Workshop Paper Camera Ready', date: 'May 15, 2026' }
+  { event: 'Workshop Date', date: 'Sunday, July 5, 2026' },
+  { event: 'Workshop Time', date: '9:30 AM – 12:30 PM (GMT+7)' },
+  { event: 'Venue', date: 'Thai Chakraphat 2' },
+  { event: 'Official Program', date: 'Available Now' }
 ]
 </script>
 
@@ -143,6 +142,7 @@ const importantDates: ImportantDate[] = [
           <a @click="scrollToSection('about')" :class="{ active: activeSection === 'about' }">About</a>
           <a @click="scrollToSection('topics')" :class="{ active: activeSection === 'topics' }">Topics</a>
           <a @click="scrollToSection('dates')" :class="{ active: activeSection === 'dates' }">Important Dates</a>
+          <a @click="scrollToSection('program')" :class="{ active: activeSection === 'program' }">Program</a>
           <a @click="scrollToSection('cfp')" :class="{ active: activeSection === 'cfp' }">Call for Papers</a>
           <a @click="scrollToSection('organizers')" :class="{ active: activeSection === 'organizers' }">Organizers</a>
         </div>
@@ -152,9 +152,9 @@ const importantDates: ImportantDate[] = [
     <!-- Hero Section -->
     <section id="home" class="hero-section">
       <div class="hero-content">
-        <div class="hero-badge">ICME 2026 Workshop</div>
+        <div class="hero-badge">ICME 2026 Workshop 02</div>
         <h1 class="hero-title">Social Intelligence for<br/>Networked Multimedia</h1>
-        <p class="hero-subtitle">SINM 2026</p>
+       <p class="hero-subtitle">SINM 2026 | Workshop 02</p>
         <div class="hero-info">
           <div class="info-item">
             <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -180,7 +180,7 @@ const importantDates: ImportantDate[] = [
           </div>
         </div>
         <div class="hero-buttons">
-          <button class="btn btn-primary" @click="scrollToSection('cfp')">Submit Paper</button>
+         <button class="btn btn-primary" @click="scrollToSection('program')">View Program</button>
           <button class="btn btn-secondary" @click="scrollToSection('about')">Learn More</button>
         </div>
       </div>
@@ -253,6 +253,66 @@ const importantDates: ImportantDate[] = [
     </section>
 
     <!-- Call for Papers -->
+    <!-- Program Section -->
+<section id="program" class="section cfp-section">
+  <div class="container">
+    <h2 class="section-title">Official Workshop Program</h2>
+
+    <div class="cfp-content">
+      <div class="cfp-card main-cfp">
+        <h3>Workshop 02: Social Intelligence for Networked Multimedia</h3>
+
+        <p>
+          The official ICME 2026 workshop schedule is now available. As announced by the
+          workshop co-chairs, Workshops 09 and 12 have been combined and are now listed
+          under Workshop 02 in the official conference program.
+        </p>
+
+        <div class="cfp-details">
+          <div class="cfp-item">
+            <span class="label">Date:</span>
+            <span class="value">Sunday, July 5, 2026</span>
+          </div>
+
+          <div class="cfp-item">
+            <span class="label">Time:</span>
+            <span class="value">9:30 AM – 12:30 PM (GMT+7)</span>
+          </div>
+
+          <div class="cfp-item">
+            <span class="label">Venue:</span>
+            <span class="value">Thai Chakraphat 2</span>
+          </div>
+
+          <div class="cfp-item">
+            <span class="label">Presentations:</span>
+            <span class="value">6 presentations</span>
+          </div>
+
+          <div class="cfp-item">
+            <span class="label">Official Program:</span>
+            <span class="value">
+              <a href="https://api.conflux.events/public/83/program" target="_blank" rel="noopener">
+                View ICME 2026 Program
+              </a>
+            </span>
+          </div>
+        </div>
+
+        <div class="hero-buttons">
+          <a
+            class="btn btn-primary"
+            href="https://api.conflux.events/public/83/program"
+            target="_blank"
+            rel="noopener"
+          >
+            View Official Program
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
     <section id="cfp" class="section cfp-section">
       <div class="container">
         <h2 class="section-title">Call for Papers</h2>
