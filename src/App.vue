@@ -254,6 +254,7 @@ const importantDates: ImportantDate[] = [
 
     <!-- Call for Papers -->
     <!-- Program Section -->
+<!-- Program Section -->
 <section id="program" class="section cfp-section">
   <div class="container">
     <h2 class="section-title">Official Workshop Program</h2>
@@ -292,22 +293,15 @@ const importantDates: ImportantDate[] = [
           <div class="cfp-item">
             <span class="label">Official Program:</span>
             <span class="value">
-              <a href="https://api.conflux.events/public/83/program" target="_blank" rel="noopener">
+              <a
+                href="https://api.conflux.events/public/83/program"
+                target="_blank"
+                rel="noopener"
+              >
                 View ICME 2026 Program
               </a>
             </span>
           </div>
-        </div>
-
-        <div class="hero-buttons">
-          <a
-            class="btn btn-primary"
-            href="https://api.conflux.events/public/83/program"
-            target="_blank"
-            rel="noopener"
-          >
-            View Official Program
-          </a>
         </div>
       </div>
     </div>
@@ -332,14 +326,16 @@ const importantDates: ImportantDate[] = [
                 <span class="label">Review Process:</span>
                 <span class="value">All submitted papers must follow a double-blind review process</span>
               </div>
-              <div class="cfp-item">
-                <span class="label">Official Program:</span>
-                <span class="value">
-                    <a href="https://api.conflux.events/public/83/program" target="_blank" rel="noopener">
-                          Workshop 02 Schedule
-                     </a>
-                  </span>
-                 </div>
+            <div class="cfp-item">
+              <span class="label">Official Program:</span>
+               <span class="value">
+                 <a href="https://api.conflux.events/public/83/program"
+                  target="_blank"
+                rel="noopener">
+                Workshop 02 Schedule
+                  </a>
+                </span>
+            </div>
   
         
 
