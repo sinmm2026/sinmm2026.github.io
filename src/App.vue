@@ -253,104 +253,59 @@ const importantDates: ImportantDate[] = [
     </section>
 
     <!-- Call for Papers -->
-    <!-- Program Section -->
-<!-- Program Section -->
-<section id="program" class="section cfp-section">
-  <div class="container">
-    <h2 class="section-title">Official Workshop Program</h2>
-
-    <div class="cfp-content">
-      <div class="cfp-card main-cfp">
-        <h3>Workshop 02: Social Intelligence for Networked Multimedia</h3>
-
-        <p>
-          The official ICME 2026 workshop schedule is now available. As announced by the
-          workshop co-chairs, Workshops 09 and 12 have been combined and are now listed
-          under Workshop 02 in the official conference program.
-        </p>
-
-        <div class="cfp-details">
-          <div class="cfp-item">
-            <span class="label">Date:</span>
-            <span class="value">Sunday, July 5, 2026</span>
-          </div>
-
-          <div class="cfp-item">
-            <span class="label">Time:</span>
-            <span class="value">9:30 AM – 12:30 PM (GMT+7)</span>
-          </div>
-
-          <div class="cfp-item">
-            <span class="label">Venue:</span>
-            <span class="value">Thai Chakraphat 2</span>
-          </div>
-
-          <div class="cfp-item">
-            <span class="label">Presentations:</span>
-            <span class="value">6 presentations</span>
-          </div>
-
-          <div class="cfp-item">
-            <span class="label">Official Program:</span>
-            <span class="value">
-              <a
-                href="https://api.conflux.events/public/83/program"
-                target="_blank"
-                rel="noopener"
-              >
-                View ICME 2026 Program
-              </a>
-            </span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+  
     <section id="cfp" class="section cfp-section">
       <div class="container">
         <h2 class="section-title">Call for Papers</h2>
+
         <div class="cfp-content">
           <div class="cfp-card main-cfp">
             <h3>Submission Guidelines</h3>
+
             <div class="cfp-details">
               <div class="cfp-item">
                 <span class="label">Format:</span>
                 <span class="value">Workshop papers should follow the same format guidelines as main conference papers</span>
               </div>
+
               <div class="cfp-item">
                 <span class="label">Page Limit:</span>
                 <span class="value">Papers must be no longer than 6 pages, including all text, figures, and references</span>
               </div>
+
               <div class="cfp-item">
                 <span class="label">Review Process:</span>
                 <span class="value">All submitted papers must follow a double-blind review process</span>
               </div>
-            <div class="cfp-item">
-              <span class="label">Official Program:</span>
-               <span class="value">
-                 <a href="https://api.conflux.events/public/83/program"
-                  target="_blank"
-                rel="noopener">
-                Workshop 02 Schedule
+
+              <div class="cfp-item">
+                <span class="label">Official Program:</span>
+                <span class="value">
+                  <a
+                    href="https://api.conflux.events/public/83/program"
+                    target="_blank"
+                    rel="noopener"
+                  >
+                    Workshop 02 Schedule
                   </a>
                 </span>
+              </div>
             </div>
-  
-        
+          </div>
 
-          
           <div class="cfp-grid">
             <div class="cfp-card">
               <div class="card-icon">📄</div>
               <h3>Paper Types</h3>
               <p>We accept original research papers, position papers, and system demonstration papers</p>
             </div>
+
             <div class="cfp-card">
               <div class="card-icon">🎤</div>
               <h3>Presentation Format</h3>
               <p>Accepted papers will be presented as oral presentations or poster sessions</p>
             </div>
+
             <div class="cfp-card">
               <div class="card-icon">📚</div>
               <h3>Publication</h3>
