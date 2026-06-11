@@ -333,12 +333,17 @@ const importantDates: ImportantDate[] = [
                 <span class="value">All submitted papers must follow a double-blind review process</span>
               </div>
               <div class="cfp-item">
-                <span class="label">Submission System:</span>
-                <span class="value">To Be Announced (TBA)</span>
-              </div>
-            </div>
-          </div>
+                <span class="label">Official Program:</span>
+                <span class="value">
+                    <a href="https://api.conflux.events/public/83/program" target="_blank" rel="noopener">
+                          Workshop 02 Schedule
+                     </a>
+                  </span>
+                 </div>
+  
+        
 
+          
           <div class="cfp-grid">
             <div class="cfp-card">
               <div class="card-icon">📄</div>
