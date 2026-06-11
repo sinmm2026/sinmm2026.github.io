@@ -1,27 +1,14 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
-import { resolve } from 'path'
 
-export default defineConfig(({ command }) => ({
+export default defineConfig({
   plugins: [vue()],
-  resolve: {
-    alias: {
-      '@': resolve(__dirname, './src'),
-    },
-  },
-  base: command === 'build' ? '/' : '/',
+  base: '/',
   build: {
-    sourcemap: false,
-    rollupOptions: {
-      output: {
-        manualChunks: {
-          'vue-vendor': ['vue'],
-        },
-      },
-    },
+    sourcemap: false
   },
   server: {
     port: 5173,
-    open: false,
-  },
-}))
+    open: false
+  }
+})
